@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <details onclick="Playsound()">
+  <summary style="font-size: 1.2em; font-weight: bold; color: #e74c3c; cursor: pointer;"> 👾 Fun Time Play Game</summary>
+    
+  <div class="game-box">
+   
+
+    <h3 class="score">Score: <span id="score">0</span></h3>
+    <h4 style="color: aliceblue;" id="desc">Please press Play Buttotn Then You can play</h4>
+    <button class="play-btn-neon" onclick="play()"  id="play">▶ Play</button>
+    <h2 id="result"></h2>
+    <h3 id="message"></h3>
+    <div id="game-box"></div>
+    <button class="genarate" onclick="Game()" id="genaratecard">Genatate Card</button>
+    <button id="restart" onclick="restart()">Restart</button>
+
+  </div>
+</details>
+
+<script src="script.js">
+   
+</script>
+
+
+    
+</body>
+</html>
+
+
+

@@ -1,0 +1,90 @@
+
+.game-box {
+    position: relative;
+    margin-top: 10px;
+    border: 2px solid #e74c3c;
+    border-radius: 10px;
+    padding: 15px;
+    width: 550px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    background: #fff7f7;
+    background-image: url("background.jpg");
+    background-size: cover;   
+    background-position: center;
+}
+
+.game-box h1 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.score {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    margin: 0;
+    font-size: 1em;
+    color: white;
+}
+
+.genarate{
+
+    position: absolute;
+    bottom: 12px;
+    left: 10px;
+    margin: 0;
+    font-size: 1em;
+    color: white;
+    border-radius: 20px;
+    background: #3c4de7;
+    display: none;
+    
+}
+
+h2{
+    
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #0dff00;
+    margin-bottom: 10px;
+   border-style: solid;
+   display: none;
+   
+}
+
+#restart{
+    display: none;
+}
+
+
+.play-btn-neon {
+    padding: 12px 30px;
+    border: 2px solid #3c4de7;
+    background: transparent;
+    border-radius: 50px;
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.play-btn-neon:hover {
+    background: #3c4de7;
+    color: white;
+    box-shadow: 0 0 12px #e74c3c;
+}
+
+
+
+
+
